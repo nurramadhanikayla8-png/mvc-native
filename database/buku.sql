@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS buku (
     penulis VARCHAR(100) NOT NULL,
     penerbit VARCHAR(100) NOT NULL,
     tahun_terbit YEAR NOT NULL,
-    kategori VARCHAR(100) NOT NULL
+    kategori VARCHAR(100) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
